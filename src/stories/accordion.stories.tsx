@@ -1,4 +1,4 @@
-// [build] library: 'shadcn'
+    // [build] library: 'shadcn'
 import {
   Accordion,
   AccordionContent,

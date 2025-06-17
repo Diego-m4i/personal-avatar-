@@ -28,7 +28,7 @@ const AudioController = ({
 
     // Configure background music
     if (backgroundMusicRef.current) {
-      backgroundMusicRef.current.loop = true;
+      backgroundMusicRef.current.loop = false;
       backgroundMusicRef.current.volume = volume;
 
       if (autoPlay) {
